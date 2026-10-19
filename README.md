@@ -22,7 +22,7 @@ A **Biblioteca Digital** é um projeto web desenvolvido com **Python e Django**,
 
 O sistema demonstra desenvolvimento backend em **Django MVC/MTV**, modelagem relacional com ORM, formulários, autenticação integrada, templates HTML e páginas estilizadas com **Bootstrap**.
 
-> **Escopo:** projeto de portfólio para desenvolvimento e estudo. O código está disponível na branch [`develop`](https://github.com/WalterMatheusgg/library-service/tree/develop). A estrutura e funcionalidades foram verificadas no código, mas não representam homologação de produção.
+> **Escopo:** projeto de portfólio para desenvolvimento e estudo. O código está disponível na branch [`develop`](https://github.com/WalterMatheusgg/estante-digital/tree/develop). A estrutura e funcionalidades foram verificadas no código, mas não representam homologação de produção.
 
 ## ✨ Funcionalidades
 
@@ -80,7 +80,7 @@ erDiagram
 ### Estrutura do projeto
 
 ```text
-library-service/
+estante-digital/
 ├── catalog/
 │   ├── management/commands/
 │   │   └── seed_data.py     # Comando de carga de demonstração
@@ -133,8 +133,8 @@ Imagens já disponibilizadas na documentação original do projeto.
 ### 1. Clone o projeto
 
 ```bash
-git clone -b develop https://github.com/WalterMatheusgg/library-service.git
-cd library-service
+git clone -b develop https://github.com/WalterMatheusgg/estante-digital.git
+cd estante-digital
 ```
 
 Depois que `develop` se tornar a branch padrão, também será possível clonar sem `-b develop`.
